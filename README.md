@@ -2,7 +2,12 @@
 
 > "Your GitHub journey, beautifully presented."
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-builder--card--mocha.vercel.app-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://builder-card-mocha.vercel.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Builder__Card-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kollisaisiddu21-dev/Builder_Card)
+
 A high-performance, responsive developer analytics dashboard that turns any public GitHub username into an elegant, shareable developer profile card with real-time statistics, top repositories, language analytics, and public activity history.
+
+🌐 **Live Deployment:** [https://builder-card-mocha.vercel.app](https://builder-card-mocha.vercel.app)
 
 ---
 
@@ -26,6 +31,8 @@ A high-performance, responsive developer analytics dashboard that turns any publ
 
 - **Project Title:** Builder Card
 - **Tagline:** *"Your GitHub journey, beautifully presented."*
+- **Live Deployment:** [https://builder-card-mocha.vercel.app](https://builder-card-mocha.vercel.app)
+- **Source Code Repository:** [https://github.com/kollisaisiddu21-dev/Builder_Card](https://github.com/kollisaisiddu21-dev/Builder_Card)
 - **Description:** Builder Card is a client-side web application designed to synthesize a developer's GitHub journey into a sleek, presentation-ready profile card and real-time analytics dashboard. By querying public GitHub REST endpoints, it visualizes core developer statistics, featured open-source repositories, language distributions, and recent commit/pull-request activity—with full support for high-resolution PNG export.
 
 ---
@@ -193,21 +200,33 @@ All requests target the official GitHub REST API (v3) using `Accept: application
 
 Builder Card requires no build steps, compilers, or package installations.
 
-### Prerequisites
+### 🌐 Instant Access (Live Deployment)
+You can immediately access and test the application directly in your browser without any installation:
+👉 **[https://builder-card-mocha.vercel.app](https://builder-card-mocha.vercel.app)**
+
+---
+
+### Local Setup Instructions
+
+#### Prerequisites
 - Any modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, or Apple Safari).
 - *(Recommended)* A lightweight static HTTP server (Python, Node.js, or VS Code Live Server) to allow smooth cross-origin canvas rendering.
 
-### Step-by-Step Instructions
+#### Step-by-Step Instructions
 
-#### 1. Obtain the Project Files
-Ensure the project folder `builder-card` is located on your local drive.
-
-#### 2. Open Terminal in the Project Directory
+##### 1. Obtain the Project Files
+Clone the repository from GitHub:
 ```bash
-cd "c:\Users\Kolli Sai Siddu\OneDrive\Documents\Something\builder-card"
+git clone https://github.com/kollisaisiddu21-dev/Builder_Card.git
+cd Builder_Card
 ```
 
-#### 3. Start a Local Web Server
+Or navigate to the local project directory on your machine:
+```bash
+cd "c:\Users\Kolli Sai Siddu\OneDrive\Documents\builder-card"
+```
+
+##### 2. Start a Local Web Server
 
 **Using Python 3 (Installed on most systems):**
 ```bash
@@ -222,13 +241,13 @@ npx serve -l 5173
 **Using VS Code Live Server:**
 Right-click `index.html` in the file tree and select **"Open with Live Server"**.
 
-#### 4. Open the Application
+##### 3. Open the Application
 Navigate to the following address in your browser:
 ```text
 http://localhost:5173
 ```
 
-#### 5. Search for a GitHub Developer
+##### 4. Search for a GitHub Developer
 Enter any valid public GitHub username into the search bar (e.g., `torvalds`, `gaearon`, `sindresorhus`, or your own username) and press **Enter** or click **"Generate Card"**.
 
 ---
@@ -284,10 +303,12 @@ The following features represent potential enhancements for future iterations of
 ## K. Author and Acknowledgments
 
 ### Author
-- **Developer:** [Kolli Sai Siddu](https://github.com)
-- **Project:** Builder Card — Developer Profile & Analytics Dashboard
+- **Developer:** [Kolli Sai Siddu](https://github.com/kollisaisiddu21-dev)
+- **Project Repository:** [Builder_Card](https://github.com/kollisaisiddu21-dev/Builder_Card)
+- **Live Deployment:** [https://builder-card-mocha.vercel.app](https://builder-card-mocha.vercel.app)
 
 ### Acknowledgments
 - **[GitHub REST API](https://docs.github.com/en/rest)** for providing accessible public developer statistics.
 - **[html2canvas](https://html2canvas.hertzen.com/)** by Niklas von Hertzen for client-side HTML canvas rendering.
 - **[Inter Font Family](https://rsms.me/inter/)** by Rasmus Andersson for clean typography.
+- **[Vercel](https://vercel.com/)** for seamless global deployment and edge hosting.
